@@ -5,24 +5,30 @@
 		<link rel="stylesheet" href="https://unpkg.com/open-props/normalize.dark.min.css" />
 
 		<!-- Tram-Lite & Javascript -->
-		<script src='https://unpkg.com/tram-lite@2'></script>
-		<style>
-			body {
-				margin: 15px;
-			}
-			main {
-				display: grid;
-				grid-template-columns: 1fr 1fr 1fr;
-				gap: 15px;
-			}
-		</style>
-        <title>Wise Whispering Wontons</title>
+		<script src="https://unpkg.com/tram-lite@2"></script>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="./styles.css" />
+
+		<!-- Font for Mochiy Pop One and Poppins-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins&display=swap" rel="stylesheet" />
+
+		<title>Wise Whispering Wontons</title>
 	</head>
+
 	<body>
-		<header>
-			<h1>Wise Whispering Wontons</h1>
-		</header>
 		<main>
+			<header>
+				<h1>Wise Whispering Wontons</h1>
+			</header>
+			<section wonton>
+				<button onclick="pullFortune()">Wonton Here</button>
+			</section>
+			<section fortune>
+				<p>Fortune Here</p>
+			</section>
 		</main>
 	</body>
 </html>
