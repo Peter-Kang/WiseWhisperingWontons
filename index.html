@@ -14,9 +14,13 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins&display=swap" rel="stylesheet" />
+		<script src="./fortunes.js"></script>
 		<script src="./pullFortune.js"></script>
+		<script src="./fortune-history.js"></script>
+		<script src="./fortune-box.js"></script>
 
 		<title>Wise Whispering Wontons</title>
+		<link rel="icon" type="image/png" href="./wonton.png" />
 	</head>
 
 	<body>
@@ -25,11 +29,13 @@
 				<h1>Wise Whispering Wontons</h1>
 			</header>
 			<section wonton>
-				<button onclick="pullFortune()">Wonton Here</button>
+				<p>Click the wise wonton for your fortune!</p>
+				<button onclick="pullFortune()" title="click to generate daily fortune">
+					<img />
+				</button>
 			</section>
-			<section fortune>
-				<p id="FortuneHere">Fortune Here</p>
-			</section>
+			<fortune-box></fortune-box>
+			<fortune-history></fortune-history>
 		</main>
 	</body>
 </html>

@@ -20,13 +20,13 @@ main {
 main {
 	display: grid;
 	height: 100vh;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr auto;
 	grid-template-columns: 15px 1fr 15px;
 	grid-template-areas:
 		'. title   .'
 		'. wonton  .'
 		'. fortune .'
-		'. .       .';
+		'. history .';
 	gap: 1em;
 }
 header {
@@ -37,26 +37,21 @@ section[wonton] {
 	grid-area: wonton;
 	padding: 2em;
 }
-section[fortune] {
+fortune-box {
 	grid-area: fortune;
 }
-
-/* card styling */
-section[fortune] {
-	background-color: var(--gray-8);
-	border-radius: var(--radius-2);
-	padding: var(--size-fluid-3);
-	box-shadow: var(--shadow-2);
-
-	&:hover {
-		box-shadow: var(--shadow-3);
-	}
-
-	@media (--motionOK) {
-		animation: var(--animation-fade-in);
-	}
+fortune-history {
+	grid-area: history;
 }
 
-/* make button larger */
 section[wonton] button {
+	background: none;
+}
+section[wonton] button img {
+	background-image: url('./wonton.png');
+	width: 517px;
+	height: 410px;
+}
+section[wonton] button:active img {
+	background-image: url('./wonton_wink.png');
 }
