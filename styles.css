@@ -48,10 +48,11 @@ section[wonton] button {
 	background: none;
 }
 section[wonton] button img {
-	background-image: url('./wonton.png');
+	content: url('./wonton.png');
 	width: 517px;
 	height: 410px;
 }
+section[wonton] button:hover img,
 section[wonton] button:active img {
-	background-image: url('./wonton_wink.png');
+	content: url('./wonton_wink.png');
 }
