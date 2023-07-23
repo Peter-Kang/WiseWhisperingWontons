@@ -56,3 +56,11 @@ section[wonton] button:hover img,
 section[wonton] button:active img {
 	content: url('./wonton_wink.png');
 }
+
+/* Mobile */
+@media screen and (max-width: 750px) {
+	p,
+	body {
+		font-size: 5vw;
+	}
+}
