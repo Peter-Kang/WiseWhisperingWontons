@@ -51,6 +51,8 @@ section[wonton] button img {
 	content: url('./wonton.png');
 	width: 517px;
 	height: 410px;
+	width: auto;
+	height: auto;
 }
 section[wonton] button:hover img,
 section[wonton] button:active img {
