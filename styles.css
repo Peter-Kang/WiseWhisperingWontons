@@ -49,8 +49,8 @@ section[wonton] button {
 }
 section[wonton] button img {
 	content: url('./wonton.png');
-	width: 517px;
-	height: 410px;
+	max-width: 517px;
+	max-height: 410px;
 	width: auto;
 	height: auto;
 }
