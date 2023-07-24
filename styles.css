@@ -49,8 +49,6 @@ section[wonton] button {
 }
 section[wonton] button img {
 	content: url('./wonton.png');
-	max-width: 517px;
-	max-height: 410px;
 	width: auto;
 	height: auto;
 }
@@ -64,5 +62,9 @@ section[wonton] button:active img {
 	p,
 	body {
 		font-size: 5vw;
+	}
+	main {
+		grid-template-columns: auto;
+		gap: 0%;
 	}
 }
