@@ -163,4 +163,15 @@ fortuneList = [
 	'Your hard work will pay off but you have to pay it back with interest.',
 	'Fast pony will go fast.',
 	"Life's a mountain not a beach, you will climb.",
+	"A sync stranger with tea awaits you this week.",
+	"You will be rewarded for your hard work, but you need to work hard. Like not only a day but at least an entire season.",
+	"Spicy food will reawaken something sleeping in your life.",
+	"You will become a powerful water bender.",
+	"Six seasons and a movie",
+	"Everything will be ok. Maybe not the way you'd expect.",
+	"Success will be determined by how well your sleep.",
+	"A smile will confuse a frown.",
+	"Sometimes moving slower will get you to wontons faster.",
+	"You will find focus in deep solitude.",
+	"Traveling awaits you."
 ];
